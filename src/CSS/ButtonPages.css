@@ -1,0 +1,38 @@
+.cuadro span{
+    margin-left: 5px;
+    padding: 8px 20px;
+    background-color: white;
+    color: #0b58a7;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cuadro .right,
+.cuadro .right:hover{
+  background-color:green;
+	border-radius:15px;
+	cursor:pointer;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  margin-top: 10px;
+  border-style: none;
+  font-size: 17px;
+  width: 100%;
+  color: white;
+}
+
+.cuadro .wrong,
+.cuadro .wrong:hover{
+  background-color:red;
+	border-radius:15px;
+	cursor:pointer;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  margin-top: 10px;
+  border-style: none;
+  font-size: 17px;
+  width: 100%;
+  color: white;
+}

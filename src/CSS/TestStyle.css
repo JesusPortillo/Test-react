@@ -19,12 +19,3 @@ li{
     margin-top: 20px;
     margin-left: 425px;
   }
-  .cuadro span{
-    margin-left: 5px;
-    padding: 8px 20px;
-    background-color: white;
-    color: #0b58a7;
-    border-radius: 15px;
-    cursor: pointer;
-    font-weight: bold;
-  }

@@ -20,6 +20,9 @@
   border-radius: 15px 15px 0 0;
   font-size: 20px;
 }
+.question-text{
+  text-align: center;
+}
 .qa_set h4{
   margin: 0 0 15px;
   font-size: 20px;
@@ -42,6 +45,7 @@
   margin-top: 10px;
   border-style: none;
   font-size: 17px;
+  width: 100%;
 }
 
 .qa_ans button:hover{
@@ -51,6 +55,40 @@
 .question-count{
   display: flex;
   flex-direction: row-reverse;
+}
+
+.qa_ans .correct,
+.qa_ans .correct:hover{
+  background-color:green;
+	border-radius:15px;
+	cursor:pointer;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  margin-top: 10px;
+  border-style: none;
+  font-size: 17px;
+  width: 100%;
+  color: white;
+}
+
+.qa_ans .incorrect,
+.qa_ans .incorrect:hover{
+  background-color:red;
+	border-radius:15px;
+	cursor:pointer;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  margin-top: 10px;
+  border-style: none;
+  font-size: 17px;
+  width: 100%;
+  color: white;
+}
+
+.qa_ans[disabled]{
+    pointer-events: none;
 }
 
 .question-count button{
